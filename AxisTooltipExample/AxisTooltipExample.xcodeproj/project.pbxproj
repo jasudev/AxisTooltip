@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B6D19CC27CAFC76007518B8 /* AxisTooltipExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D19BC27CAFC75007518B8 /* AxisTooltipExampleApp.swift */; };
+		4B6D19CD27CAFC76007518B8 /* AxisTooltipExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D19BC27CAFC75007518B8 /* AxisTooltipExampleApp.swift */; };
+		4B6D19CE27CAFC76007518B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D19BD27CAFC75007518B8 /* ContentView.swift */; };
+		4B6D19CF27CAFC76007518B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D19BD27CAFC75007518B8 /* ContentView.swift */; };
+		4B6D19D027CAFC76007518B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6D19BE27CAFC76007518B8 /* Assets.xcassets */; };
+		4B6D19D127CAFC76007518B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6D19BE27CAFC76007518B8 /* Assets.xcassets */; };
+		4B6D19DE27CB019E007518B8 /* AxisTooltip in Frameworks */ = {isa = PBXBuildFile; productRef = 4B6D19DD27CB019E007518B8 /* AxisTooltip */; };
+		4B6D19E027CB01A3007518B8 /* AxisTooltip in Frameworks */ = {isa = PBXBuildFile; productRef = 4B6D19DF27CB01A3007518B8 /* AxisTooltip */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B6D19BC27CAFC75007518B8 /* AxisTooltipExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisTooltipExampleApp.swift; sourceTree = "<group>"; };
+		4B6D19BD27CAFC75007518B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B6D19BE27CAFC76007518B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B6D19C327CAFC76007518B8 /* AxisTooltipExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxisTooltipExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6D19C927CAFC76007518B8 /* AxisTooltipExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxisTooltipExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6D19CB27CAFC76007518B8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4B6D19DB27CAFC8B007518B8 /* AxisTooltip */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AxisTooltip; path = ..; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B6D19C027CAFC76007518B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6D19DE27CB019E007518B8 /* AxisTooltip in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6D19C627CAFC76007518B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6D19E027CB01A3007518B8 /* AxisTooltip in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B6D19B627CAFC75007518B8 = {
+			isa = PBXGroup;
+			children = (
+				4B6D19DA27CAFC8B007518B8 /* Packages */,
+				4B6D19BB27CAFC75007518B8 /* Shared */,
+				4B6D19CA27CAFC76007518B8 /* macOS */,
+				4B6D19C427CAFC76007518B8 /* Products */,
+				4B6D19DC27CB019E007518B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B6D19BB27CAFC75007518B8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4B6D19BC27CAFC75007518B8 /* AxisTooltipExampleApp.swift */,
+				4B6D19BD27CAFC75007518B8 /* ContentView.swift */,
+				4B6D19BE27CAFC76007518B8 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4B6D19C427CAFC76007518B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B6D19C327CAFC76007518B8 /* AxisTooltipExample.app */,
+				4B6D19C927CAFC76007518B8 /* AxisTooltipExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B6D19CA27CAFC76007518B8 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B6D19CB27CAFC76007518B8 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		4B6D19DA27CAFC8B007518B8 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4B6D19DB27CAFC8B007518B8 /* AxisTooltip */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		4B6D19DC27CB019E007518B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B6D19C227CAFC76007518B8 /* AxisTooltipExample (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B6D19D427CAFC76007518B8 /* Build configuration list for PBXNativeTarget "AxisTooltipExample (iOS)" */;
+			buildPhases = (
+				4B6D19BF27CAFC76007518B8 /* Sources */,
+				4B6D19C027CAFC76007518B8 /* Frameworks */,
+				4B6D19C127CAFC76007518B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AxisTooltipExample (iOS)";
+			packageProductDependencies = (
+				4B6D19DD27CB019E007518B8 /* AxisTooltip */,
+			);
+			productName = "AxisTooltipExample (iOS)";
+			productReference = 4B6D19C327CAFC76007518B8 /* AxisTooltipExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B6D19C827CAFC76007518B8 /* AxisTooltipExample (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B6D19D727CAFC76007518B8 /* Build configuration list for PBXNativeTarget "AxisTooltipExample (macOS)" */;
+			buildPhases = (
+				4B6D19C527CAFC76007518B8 /* Sources */,
+				4B6D19C627CAFC76007518B8 /* Frameworks */,
+				4B6D19C727CAFC76007518B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AxisTooltipExample (macOS)";
+			packageProductDependencies = (
+				4B6D19DF27CB01A3007518B8 /* AxisTooltip */,
+			);
+			productName = "AxisTooltipExample (macOS)";
+			productReference = 4B6D19C927CAFC76007518B8 /* AxisTooltipExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B6D19B727CAFC75007518B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4B6D19C227CAFC76007518B8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4B6D19C827CAFC76007518B8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4B6D19BA27CAFC75007518B8 /* Build configuration list for PBXProject "AxisTooltipExample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B6D19B627CAFC75007518B8;
+			productRefGroup = 4B6D19C427CAFC76007518B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B6D19C227CAFC76007518B8 /* AxisTooltipExample (iOS) */,
+				4B6D19C827CAFC76007518B8 /* AxisTooltipExample (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B6D19C127CAFC76007518B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6D19D027CAFC76007518B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6D19C727CAFC76007518B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6D19D127CAFC76007518B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B6D19BF27CAFC76007518B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6D19CE27CAFC76007518B8 /* ContentView.swift in Sources */,
+				4B6D19CC27CAFC76007518B8 /* AxisTooltipExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6D19C527CAFC76007518B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6D19CF27CAFC76007518B8 /* ContentView.swift in Sources */,
+				4B6D19CD27CAFC76007518B8 /* AxisTooltipExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B6D19D227CAFC76007518B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B6D19D327CAFC76007518B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4B6D19D527CAFC76007518B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM6445X39C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devstore.AxisTooltipExample;
+				PRODUCT_NAME = AxisTooltipExample;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B6D19D627CAFC76007518B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM6445X39C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devstore.AxisTooltipExample;
+				PRODUCT_NAME = AxisTooltipExample;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B6D19D827CAFC76007518B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM6445X39C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devstore.AxisTooltipExample;
+				PRODUCT_NAME = AxisTooltipExample;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4B6D19D927CAFC76007518B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM6445X39C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devstore.AxisTooltipExample;
+				PRODUCT_NAME = AxisTooltipExample;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B6D19BA27CAFC75007518B8 /* Build configuration list for PBXProject "AxisTooltipExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6D19D227CAFC76007518B8 /* Debug */,
+				4B6D19D327CAFC76007518B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B6D19D427CAFC76007518B8 /* Build configuration list for PBXNativeTarget "AxisTooltipExample (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6D19D527CAFC76007518B8 /* Debug */,
+				4B6D19D627CAFC76007518B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B6D19D727CAFC76007518B8 /* Build configuration list for PBXNativeTarget "AxisTooltipExample (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6D19D827CAFC76007518B8 /* Debug */,
+				4B6D19D927CAFC76007518B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B6D19DD27CB019E007518B8 /* AxisTooltip */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AxisTooltip;
+		};
+		4B6D19DF27CB01A3007518B8 /* AxisTooltip */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AxisTooltip;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4B6D19B727CAFC75007518B8 /* Project object */;
+}
