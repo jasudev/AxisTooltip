@@ -26,7 +26,7 @@
 import SwiftUI
 
 /// The position mode of the tooltip.
-public enum ATAxisMode: Equatable {
+public enum ATAxisMode: Sendable {
     case top
     case bottom
     case leading
